@@ -17,7 +17,7 @@ if (item1.isbn() != item2.isbn())
     throw runtime_error("Data must refer to same ISBN");
 cout << item1 + item2 << endl;
 ```
-`runtime_error`是标准库异常类型的一种，需要用一个字符串初始化。
+`runtime_error`包含在<stdexcept>头文件中，是标准库异常类型的一种，需要用一个字符串初始化。
 `runtime_error`和`string`、`vector`一样，都属于`std`名称空间，需要用`using`声明。
 #### try语句块
 ```c++
