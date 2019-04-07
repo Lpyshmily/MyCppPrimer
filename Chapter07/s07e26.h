@@ -23,7 +23,7 @@ public:
 	friend std::istream &read(std::istream &is, Sales_data &item);
 	friend std::ostream &print(std::ostream &os, const Sales_data &item);
 	friend Sales_data add(const Sales_data &lhs, const Sales_data &rhs);
-}
+};
 
 // nonmember functions
 std::istream &read(std::istream &is, Sales_data &item)
